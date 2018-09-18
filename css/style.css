@@ -57,13 +57,30 @@ img:hover {
 
 /* create your tile classes! we recommend .small .med .large */
 
-.small{
-  
+.small {
+  width: 100%;
+  height: 100%;
 }
-.medium{
-  
+
+.medium {
+  width: 200%;
+  height: 200%;
 }
-.large{
-  
+
+.large {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 0;
+  right: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
 }
 
