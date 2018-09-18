@@ -50,7 +50,9 @@ img:hover {
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 
 .column{
-  
+  display:inline;
+  vertical-align: baseline;
+  width:200px;
 }
 
 /* create your tile classes! we recommend .small .med .large */
@@ -58,7 +60,7 @@ img:hover {
 .small{
   
 }
-.medium{
+.med{
   
 }
 .large{
